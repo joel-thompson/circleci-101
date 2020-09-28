@@ -36,7 +36,7 @@ workflows:
       - testa:
           requires:
             - build
-      - testa:
+      - testb:
           requires:
             - build
       - deploy:
