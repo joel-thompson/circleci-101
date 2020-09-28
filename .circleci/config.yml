@@ -36,7 +36,7 @@ jobs:
       - image: circleci/ruby:2.4.1
     steps:
       - checkout
-      - run: echo "we are deploying" 
+      - run: echo "we are deploying hi" 
       - run: sleep 5
 workflows:
   version: 2
